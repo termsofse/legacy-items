@@ -4,3 +4,4 @@
 - Extract it into a folder
 - Open terminal in that folder
 - Run ```.\gradlew.bat build```
+Jar comes out in ```build/libs/legacy-items-1.4.1.jar```
