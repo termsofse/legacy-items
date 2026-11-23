@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "legacyitems",
+  "version": "${version}",
+  "name": "Legacy Block Items",
+  "description": "Forward-ports legacy block items",
+  "authors": [
+    "Micah"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mrlucky.legacyitems.LegacyItemsEntrypoint"
+    ]
+  },
+  "mixins": [
+    "legacyitems.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": ">=26.1 <26.4",
+    "java": ">=25"
+  }
+}
